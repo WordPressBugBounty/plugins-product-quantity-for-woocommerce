@@ -2,40 +2,35 @@
 # This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Min Max Step Quantity Limits Manager for WooCommerce 4.9.7\n"
+"Project-Id-Version: product-quantity-for-woocommerce 4.9.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-quantity-for-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-07T11:30:36+00:00\n"
+"POT-Creation-Date: 2025-02-17T17:16:28+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: product-quantity-for-woocommerce\n"
 
 #. Plugin Name of the plugin
-#: product-quantity-for-woocommerce.php
-msgid "Min Max Step Quantity Limits Manager for WooCommerce"
+msgid "Min Max Step Quantity Limits Manager for WooCommerce Pro"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: product-quantity-for-woocommerce.php
 msgid "https://wpfactory.com/item/product-quantity-for-woocommerce/"
 msgstr ""
 
 #. Description of the plugin
-#: product-quantity-for-woocommerce.php
 msgid "Manage product quantity in WooCommerce, beautifully. Define a minimum / maximum / step quantity and more on WooCommerce products."
 msgstr ""
 
 #. Author of the plugin
-#: product-quantity-for-woocommerce.php
 msgid "WPFactory"
 msgstr ""
 
 #. Author URI of the plugin
-#: product-quantity-for-woocommerce.php
 msgid "https://wpfactory.com"
 msgstr ""
 
@@ -350,8 +345,8 @@ msgstr ""
 
 #: includes/settings/class-alg-wc-pq-metaboxes.php:85
 #: includes/settings/class-alg-wc-settings-pq.php:25
-#: product-quantity-for-woocommerce.php:306
-#: product-quantity-for-woocommerce.php:307
+#: product-quantity-for-woocommerce-pro.php:306
+#: product-quantity-for-woocommerce-pro.php:307
 msgid "Product Quantity"
 msgstr ""
 
@@ -862,7 +857,6 @@ msgstr ""
 
 #: includes/settings/class-alg-wc-pq-settings-default.php:139
 #: includes/settings/class-alg-wc-pq-settings-max.php:214
-#: includes/settings/class-alg-wc-pq-settings-min.php:272
 msgid "General > Initial Quantity Options"
 msgstr ""
 
@@ -871,6 +865,7 @@ msgid "You can have a default quantity different from the minimum quantity."
 msgstr ""
 
 #: includes/settings/class-alg-wc-pq-settings-default.php:143
+#: includes/settings/class-alg-wc-pq-settings-min.php:271
 msgid "If the default quantity is lower than minimum quantity, the initial quantity will be set to minimum."
 msgstr ""
 
@@ -1316,7 +1311,6 @@ msgstr ""
 
 #: includes/settings/class-alg-wc-pq-settings-general.php:217
 #: includes/settings/class-alg-wc-pq-settings-general.php:232
-#: includes/settings/class-alg-wc-pq-settings-min.php:273
 msgid "Min quantity"
 msgstr ""
 
@@ -1587,8 +1581,8 @@ msgstr ""
 msgid "Hide \"Add To Cart\" when stock less than min quantity"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pq-settings-min.php:271
-msgid "To make the minimum quantity appear on page load, set an option from the %s section to %s."
+#: includes/settings/class-alg-wc-pq-settings-min.php:270
+msgid "The initial default quantity visible will be set to minimum."
 msgstr ""
 
 #: includes/settings/class-alg-wc-pq-settings-price-by-qty.php:40
@@ -1925,18 +1919,18 @@ msgstr ""
 msgid "Your settings have been reset."
 msgstr ""
 
-#: product-quantity-for-woocommerce.php:30
+#: product-quantity-for-woocommerce-pro.php:30
 msgid "You need to deactivate Product Quantity Control for WooCommerce. <br/> %s back to plugins. %s"
 msgstr ""
 
-#: product-quantity-for-woocommerce.php:255
+#: product-quantity-for-woocommerce-pro.php:255
 msgid "Settings"
 msgstr ""
 
-#: product-quantity-for-woocommerce.php:258
+#: product-quantity-for-woocommerce-pro.php:258
 msgid "Review Us"
 msgstr ""
 
-#: product-quantity-for-woocommerce.php:262
+#: product-quantity-for-woocommerce-pro.php:262
 msgid "Go Pro"
 msgstr ""

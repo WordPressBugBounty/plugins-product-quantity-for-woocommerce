@@ -3,7 +3,7 @@ Contributors: wpcodefactory, omardabbas, karzin, anbinder, algoritmika, kousikmu
 Tags: minimum quantity, maximum quantity, dropdown, quantity, decimal quantity
 Requires at least: 6.1
 Tested up to: 6.8
-Stable tag: 5.1.6
+Stable tag: 5.1.8
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -344,6 +344,16 @@ ___
 Once activated, access the plugin's settings by navigating to the “WPFactory” menu and look for the relevant tab.
 
 == Changelog ==
+
+= 5.1.8 - 15/08/2025 =
+* Fix - Fixed Undefined array key "input_value".
+* Fix - Total price by quantity - Fixed "Unsupported operand types: string / string".
+* Fix - Resolved `Allowed memory size exhausted` fatal error during product quantity calculations.
+* WC tested up to: 10.1.
+
+= 5.1.7 - 13/08/2025 =
+* Fix - Price Unit - Variation price unit was being replaced by general unit instead of the category one.
+* Dev - Total Price by Quantity - Added option to replace variation price if position is set to "Instead of the price".
 
 = 5.1.6 - 12/08/2025 =
 * Fix - Total price by quantity - Price was not showing properly.

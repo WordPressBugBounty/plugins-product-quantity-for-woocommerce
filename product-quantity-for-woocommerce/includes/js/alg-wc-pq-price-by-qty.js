@@ -1,7 +1,7 @@
 /**
  * alg-wc-pq-price-by-qty.js
  *
- * @version 5.1.6
+ * @version 5.1.8
  * @since   1.6.1
  */
 
@@ -64,6 +64,9 @@ function alg_wc_pq_update_price_by_qty( e, qty = null, attribute = null ) {
 				if ( 'instead' == alg_wc_pq_update_price_by_qty_object.position ) {
 					if ( response.length > 0 ) {
 						jQuery( 'p.price' ).html( response );
+						if(alg_wc_pq_update_price_by_qty_object.replace_variation_price){
+							jQuery( '.woocommerce-variation-price .price' ).html( response );
+						}
 					}
 				} else {
 					jQuery( 'p.alg-wc-pq-price-display-by-qty' ).html( response );
@@ -128,7 +131,14 @@ jQuery( document ).ready( function () {
 	jQuery( '[name="quantity"]' ).not( ".disable_price_by_qty" ).on( 'change', alg_wc_pq_update_price_by_qty );
 
 	var $el = jQuery( '[name="quantity"]' );
-	var $qty_val = Math.min( Math.max( +$el.val(), +$el.attr( 'min' ) ), +$el.attr( 'max' ) );
+	var val = +$el.val();
+	if ( $el.attr( 'min' ) !== undefined ) {
+		val = Math.max( val, +$el.attr( 'min' ) );
+	}
+	if ( $el.attr( 'max' ) !== undefined ) {
+		val = Math.min( val, +$el.attr( 'max' ) );
+	}
+	var $qty_val = val;
 
 	if ( 'undefined' !== typeof $qty_val ) {
 		alg_wc_pq_update_price_by_qty( false, $qty_val, $attribute );

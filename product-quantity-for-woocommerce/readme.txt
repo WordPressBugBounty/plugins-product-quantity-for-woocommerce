@@ -2,8 +2,8 @@
 Contributors: wpcodefactory, omardabbas, karzin, anbinder, kousikmukherjeeli, aegkr
 Tags: minimum quantity, maximum quantity, dropdown, quantity, decimal quantity
 Requires at least: 6.1
-Tested up to: 6.9
-Stable tag: 5.2.9
+Tested up to: 7.0
+Stable tag: 5.4.2
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -344,6 +344,74 @@ ___
 Once activated, access the plugin's settings by navigating to the “WPFactory” menu and look for the relevant tab.
 
 == Changelog ==
+
+= 5.4.2 - 26/05/2026 =
+* Fix - Fixed "Per Product > Add to All" checkbox.
+
+= 5.4.1 - 26/05/2026 =
+* Fix - Advanced - Fixed "Round on add to cart" option.
+* Fix - Improved data handling.
+
+= 5.4.0 - 22/05/2026 =
+* Fix - Fixed version.
+
+= 5.3.9 - 22/05/2026 =
+* Fix - Min - Category - Fixed Minimum quantity for all product, and grouped.
+* Fix - Added more legacy keys to migration.
+* Fix - Min - Auto corrected quantity on cart page.
+* Fix - Code refactoring.
+* Fix - Fixed php warning on Quantity as dropdown feature.
+* Dev - Improved "Selling below minimum" options.
+* Tested up to: 7.0.
+
+= 5.3.8 - 15/05/2026 =
+* Fix - Fixed "Trying to access array offset on false" php warning.
+* Fix - Fixed Undefined array key messages.
+* Fix - Fixed calling to `WPFMMSQ_Category_Metaboxes` class.
+* Fix - Step - Skip step restriction - Fixed cart quantity input not allowing adding all quantity to cart.
+
+= 5.3.7 - 14/05/2026 =
+* Fix - Step - Skip step restriction - Fixed quantity input flashing notice.
+* Fix - Buy all stock button - Fixed Buy all stock button message.
+* Dev - Buy all stock button - Added message to Fixed Buy all stock button message.
+
+= 5.3.6 - 13/05/2026 =
+* Dev - Migration class now deletes old meta from database.
+
+= 5.3.5 - 13/05/2026 =
+* Fix - Fixed some unescaped data.
+
+= 5.3.4 - 12/05/2026 =
+* Fix - Fixed some unescaped data.
+* Fix - Fixed generic function/class/define/namespace/option names.
+* Dev - Added migration class.
+
+= 5.3.3 - 06/05/2026 =
+* Fix - Replaced deprecated functions.
+* Fix - Removed unnecessary function.
+
+= 5.3.2 - 05/05/2026 =
+* Fix - Fixed generic function/class/define/namespace/option names.
+* Fix - Replaced filters.
+
+= 5.3.1 - 04/05/2026 =
+* Fix - Fixed generic function/class/define/namespace/option names.
+* Fix - Fixed variables as text domain parameters.
+* Fix - Fixed files and directories determination.
+* Fix - Replaced external images with local ones.
+* Fix - Replaced deprecated functions.
+* Fix - Fixed db issues.
+* Fix - Fixed issues regarding sanitizing, unslashing, and input validation.
+* Fix - Fixed issues regarding escaping.
+* Fix - Wrong text domain.
+* Dev - Buy all stock class refactoring.
+
+= 5.3.0 - 30/04/2026 =
+* Fix - Step - Fixed "Allow adding all quantity in stock" option on variations.
+* Dev - General - Added new option Buy all stock button.
+* Dev - General - Buy all stock - Added new option Button label.
+* Dev - General - Buy all stock - Added new option Button class.
+* Dev - General - Buy all stock - Added new option Alert message.
 
 = 5.2.9 - 21/04/2026 =
 * Fix - Max Qty - Fixed inconsistency between "All Products" and "Per Product" options.
